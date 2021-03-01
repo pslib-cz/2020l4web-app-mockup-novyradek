@@ -8,6 +8,6 @@ Mobilní aplikace Fitplan slouží pro plánování a sledování vašeho cviče
 2. **Profil**
 > V sekci profil jsou uloženy osobní informace jako váha, výška a věk. Dále se zde uchovávají přehledy o předešlých cvičeních a seznam přátel.
 3. **Nastavení**
-> Nastavení umožňuje změnu jazyka a soustavu jednotek. Dále lze změnit informace o profilu a odhlášení z aktuálního účtu.
+> Nastavení umožňuje změnu jazyka, soustavu jednotek a odhlášení z aktuálního účtu.
 4. **Menu**
 > Pro přepínání mezi jednotlivými stránkami bude sloužit klasické hamburger menu, které se zobrazí vysunutím z pravé srany.
