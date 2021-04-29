@@ -30,7 +30,7 @@ header {
     height: 15px;
 }
 
-main>div {
+main>div>div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,18 +39,18 @@ main>div {
 main {
     margin-top: 10vh;
     height: 80vh;
-    width: 100%;
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
-main>div>div {
+main>div>div>div {
     display: flex;
 }
 
-main>div>div>div {
+main>div>div>div>div {
     height: 40px;
     width: 150px;
     background-color: rgba(0, 0, 0, 0.05);
@@ -61,17 +61,17 @@ main>div>div>div {
     border-radius: 20px;
 }
 
-main>div>div>div>a {
-    text-decoration: none;
-    color: black;
-}
-
-main>div>a {
+main>div>div>div>div>a {
     text-decoration: none;
     color: black;
 }
 
 main>div>div>a {
+    text-decoration: none;
+    color: black;
+}
+
+main>div>div>div>a {
     text-decoration: none;
     color: black;
 }
@@ -113,12 +113,76 @@ main>div>div>a {
     margin-top: 20vh;
 }
 
+.socky {
+    display: flex;
+    flex-direction: column;
+}
+
+.socky>a {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.soc {
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.socky>a>svg {
+    height: 20px;
+    fill: white;
+}
+
+.fb {
+    background-color: #4267B2;
+}
+
+.ig {
+    background: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+.wa {
+    background-color: #25D366;
+}
+
+.tw {
+    background-color: #1DA1F2;
+}
+
+.social {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media only screen and (max-width: 400px) {
-    main>div>div {
+    main>div>div>div {
         flex-direction: column;
     }
 
     main {
         margin-top: 30vh;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    main {
+        flex-direction: column;
+        margin-top: 20vh;
+    }
+
+    .social {
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .socky>a {
+        width: 100%;
     }
 }

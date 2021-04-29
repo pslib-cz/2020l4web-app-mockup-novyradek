@@ -1,0 +1,518 @@
+main,
+footer {
+    filter: blur(10px);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px #00000050;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    height: 40px;
+}
+
+.menu {
+    height: 15px;
+}
+
+main {
+    width: 80%;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+.controls>a {
+    color: #5050509c;
+    text-decoration: none;
+}
+
+.plan {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left {
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timetable {
+    width: 90%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    width: 90%;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons>div {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.buttons>div>a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 0.8em;
+}
+
+.graphs {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.duration {
+    width: 45%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.duration>a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.durationinfo>div>div {
+    width: 100%;
+    height: 15px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.durationinfo>div>div>div {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.outside {
+    width: 75%;
+    height: 100%;
+    background-color: #94FFEA;
+}
+
+.gym {
+    width: 25%;
+    height: 100%;
+    background-color: #FF8F85;
+}
+
+.cardio {
+    width: 50%;
+    height: 100%;
+    background-color: #77EDFF;
+}
+
+.stretch {
+    width: 45%;
+    height: 100%;
+    background-color: #FCE398;
+}
+
+.durationinfo>div>a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 900;
+}
+
+.durationinfo>div {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.durationinfo {
+    width: 70%;
+}
+
+.circles {
+    width: 45%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circles>.goal {
+    font-size: 0.8em;
+}
+
+circle {
+    stroke-dasharray: 503;
+    stroke-dashoffset: 125;
+
+    transform: rotateZ(-90deg);
+    transform-origin: 50% 50%;
+
+}
+
+.circles>svg {
+    position: absolute;
+    overflow: visible;
+
+}
+
+.circles>a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.social {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social>div {
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 55%;
+    height: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.social>div>a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.social>div>div>a>img {
+    height: 30px;
+    margin: 10px;
+}
+
+.calendar {
+    height: 50%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.box>div {
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 90%;
+    width: 22%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box>div>a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.datecolor {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #77EDFF;
+}
+
+.active {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FF8F85;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.calendar>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    width: 90%;
+    height: 70%;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 25%;
+    width: 100%;
+}
+
+.tabletime {
+    width: 100%;
+    border-top: 1px solid #00000013;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.timetable>a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.fillgreen {
+    background-color: #94FFEA;
+}
+
+.fillred {
+    background-color: #FF8F85;
+}
+
+.fillblue {
+    background-color: #77EDFF;
+}
+
+.fillyellow {
+    background-color: #FCE398;
+}
+
+.narrow {
+    height: 10%;
+}
+
+.tabletime {
+    height: 10%;
+}
+
+.filler {
+    height: 5%;
+}
+
+.leftend {
+    border-radius: 45% 0% 0% 45%;
+}
+
+.rightend {
+    border-radius: 0% 45% 45% 0%;
+}
+
+.bothends {
+    border-radius: 45%;
+}
+
+
+@media only screen and (max-width: 1700px) {}
+
+
+@media only screen and (max-width: 1300px) {
+    main {
+        width: 95%;
+    }
+
+    .plan {
+        flex-direction: column;
+    }
+
+    body {
+        width: 100vw;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    main {
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .leftend {
+        border-radius: 40% 0% 0% 40%;
+    }
+
+    .rightend {
+        border-radius: 0% 40% 40% 0%;
+    }
+
+    .bothends {
+        border-radius: 40%;
+    }
+
+    footer>a {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .circles>svg {
+        transform: scale(0.8);
+    }
+
+    .timetable {
+        height: 40%;
+    }
+
+    .left {
+        height: 70vh;
+    }
+
+    .right {
+        height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .social>div {
+        width: 90%;
+    }
+
+    .circles>svg {
+        transform: scale(0.6);
+    }
+
+    .circles>a {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .buttons>div>a {
+        font-size: 0.5em;
+    }
+
+    .buttons>div {
+        padding: 5px 10px 5px 10px;
+        border-radius: 20px;
+    }
+
+    .duration>a {
+        font-size: 0.7em;
+    }
+
+    .durationinfo>div>a {
+        font-size: 0.6em;
+    }
+
+    .date {
+        font-size: 0.8em;
+    }
+}
+
+.edit {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    background-color: white;
+    top: 25%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #0000002c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.edit>div>a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+}
+.edit>div>.plus {
+    background-color: black;
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.edit>div {
+    margin-bottom: 30px;
+}
